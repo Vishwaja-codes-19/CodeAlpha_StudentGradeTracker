@@ -1,70 +1,61 @@
-CodeAlpha_StudentGradeTracker
+**Student Grade Tracke**r
 
-A Java console-based Student Grade Tracker developed during the CodeAlpha Java Programming Internship.
+A Java-based console application for managing student grades and generating class performance summaries.
 
-Project Overview
-
-This project is a console-based Java application for managing student grades and displaying useful academic information such as average marks, highest mark, lowest mark, and grade.
-
-Features
-
+**Features**
 - Add student details
-- Store student marks
-- Calculate average marks
-- Find the highest mark
-- Find the lowest mark
-- Calculate the student's grade
-- Display student information and grade details
-- Console-based user interaction
+- Enter subject grades
+- Calculate individual student averages
+- Display student information
+- Calculate class average
+- Find the highest student average
+- Find the lowest student average
+- Display an overall class summary
 
-Technologies Used
+**Technologies Used**
 
 - Java
-- Object-Oriented Programming (OOP)
-- Arrays
-- Loops and Conditional Statements
-- Methods
+- Object-Oriented Programming
+- ArrayList
+- Scanner
+- Git & GitHub
 
-Project Files
+**Project Structure**
 
-- "Main.java" — Main program and user interaction
-- "Student.java" — Student data and grade calculation methods
-- ".gitignore" — Git configuration file
-- "README.md" — Project documentation
+Student-Grade-Tracker/
+├── Student.java
+├── Main.java
+└── README.md
 
-How to Run
+**How to Run**
 
-1. Clone or download this repository.
-2. Open the project in a Java-supported IDE such as VS Code.
-3. Compile the Java files:
+Compile the Java files:
 
 javac Student.java Main.java
 
-4. Run the program:
+Run the application:
 
 java Main
 
-Sample Output
+**How It Works**
+1. Enter the student details.
+2. Enter the grades for the required subjects.
+3. The application calculates each student's average.
+4. Student information and averages are displayed.
+5. The application generates a class performance summary.
+6. The summary displays the total number of students, class average, highest average, and lowest average.
+
+**Sample Output**
 
 Output 1
 <img width="376" height="745" alt="GSD output1" src="https://github.com/user-attachments/assets/b11357fd-66c6-479c-8e4f-497efaa34217" />
 
-"Student Grade Tracker Output 1" (GSD%20output1.png)
-
 Output 2
 <img width="312" height="917" alt="GDT output 2" src="https://github.com/user-attachments/assets/334f2e7d-ed6e-4cca-b671-e48879059133" />
-
-"Student Grade Tracker Output 2" (GDT%20output%202.png)
 
 Output 3
 <img width="387" height="560" alt="GDT output 3" src="https://github.com/user-attachments/assets/67d8a2d1-8907-4992-a63c-686242a3a716" />
 
-"Student Grade Tracker Output 3" (GDT%20output%203.png)
+Learning Outcomes
 
-Internship
-
-This project was developed as part of the CodeAlpha Java Programming Internship.
-
-Author
-
-Vishwaja-codes-19
+This project provided practical experience with Java fundamentals, Object-Oriented Programming, ArrayList, user input handling, calculations, and problem-solving.
